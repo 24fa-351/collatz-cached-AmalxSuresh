@@ -4,7 +4,6 @@ Write a program that exercises the Collatz conjecture.
 The program should accept three arguments:
 
 1. Number of values to test (N)
-
 2. Smallest value to test (MIN)
 
 3. Largest value to test (MAX)
