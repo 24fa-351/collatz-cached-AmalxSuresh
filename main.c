@@ -24,7 +24,6 @@ int main(int argc, char *argv[]) {
     printf("min = %lld, max = %lld, number of entries = %lld, cache_size = %lld \n", smallest_value, largest_value, num_values, cache_size);
 
     cache_main* cache = create_cache(cache_size);
-
     for (int i = 0; i < num_values; i++) {
         random_number = random_num(largest_value, smallest_value);
         steps_array[i] = collatz_cached(cache, random_number, &cache_hits, &cache_misses, policy);

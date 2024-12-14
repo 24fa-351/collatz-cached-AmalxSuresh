@@ -5,8 +5,7 @@
 #include <string.h>
 #include <inttypes.h>
 
-// #define LARGEST_HASH 100003
- #define MAX_CACHE_SIZE 100000000 // Adjust as needed
+#define MAX_CACHE_SIZE 100000000 // Adjust as needed
 
 typedef struct {
     uint64_t key;
